@@ -38,6 +38,9 @@ class Chien extends Mammifère { // je crée une classe chien qui hérite de Mam
             return $this->race;
         }
 }
+
+
+
 $rio = new Chien(); // je crée un nouveau chien
 $rio->info(); // je donne les étapes à suivre
 $rio->infoPlus(); // je donne les étapes à suivre
@@ -47,7 +50,6 @@ echo $rio->getTaille();
 $rio->setType("caniche");
 echo $rio->getType();
 // var_dump($rio); // je donne les étapes à suivre
-
 
 
 
